@@ -1,5 +1,5 @@
 import React from 'react'
-import Imege from '../../assets/pc.png'
+import Imege from '../../../assets/PcImage/pc.png'
 
 export default function Page3() {
   return (

@@ -1,7 +1,7 @@
 import React from 'react';
-import Thitle from '../Thitle';
-import Server from '../../assets/server.png'
-import Client from '../../assets/pc.png'
+import Thitle from '../../../ThitleLabel/Thitle';
+import Server from '../../../assets/PcImage/server.png'
+import Client from '../../../assets/PcImage/pc.png'
 import SettingsEthernetIcon from '@mui/icons-material/SettingsEthernet';
 
 export default function Page8() {

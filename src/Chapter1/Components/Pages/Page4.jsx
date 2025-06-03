@@ -1,7 +1,7 @@
 import React from 'react';
-import Thitle from '../Thitle';
-import Server from '../../assets/server.png'
-import Client from '../../assets/pc.png'
+import Thitle from '../../../ThitleLabel/Thitle';
+import Server from '../../../assets/PcImage/server.png'
+import Client from '../../../assets/PcImage/pc.png'
 import DoubleArrowIcon from '@mui/icons-material/DoubleArrow';
 
 export default function Page4() {

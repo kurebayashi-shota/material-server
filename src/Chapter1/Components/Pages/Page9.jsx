@@ -1,6 +1,6 @@
 import React from 'react';
-import Thitle from '../Thitle';
-import FoodService from '../../assets/food_server.png'
+import Thitle from '../../../ThitleLabel/Thitle';
+import FoodService from '../../../assets/Other/food_server.png'
 
 export default function Page9() {
   return (

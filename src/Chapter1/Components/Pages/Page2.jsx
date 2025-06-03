@@ -1,5 +1,5 @@
 import React from 'react'
-import Server from '../../assets/Server.png'
+import Server from '../../../assets/PcImage/server.png'
 
 export default function Page2() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import back from './../../assets/back.png';
+import back from './../../../assets/Other/back.png';
 
 export default function ContentLayout({ className }) {
   return (

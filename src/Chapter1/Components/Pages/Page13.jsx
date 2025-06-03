@@ -1,5 +1,5 @@
 import React from 'react';
-import Thitle from '../Thitle';
+import Thitle from '../../../ThitleLabel/Thitle';
 
 export default function Page13() {
   return (

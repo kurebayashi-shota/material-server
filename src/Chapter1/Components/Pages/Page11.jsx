@@ -1,10 +1,10 @@
 import React from 'react';
-import Thitle from '../Thitle';
+import Thitle from '../../../ThitleLabel/Thitle';
 import Logo from './Components/Logo';
-import Apache from '../../assets/apache.png'
-import Nginx from '../../assets/nginx.png'
-import Chrome from '../../assets/chrome.png'
-import Edge from '../../assets/edge.png'
+import Apache from '../../../assets/Software/apache.png'
+import Nginx from '../../../assets/Software/nginx.png'
+import Chrome from '../../../assets/Software/chrome.png'
+import Edge from '../../../assets/Software/edge.png'
 
 export default function Page11() {
   return (

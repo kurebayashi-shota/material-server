@@ -1,5 +1,5 @@
 import React from 'react';
-import Thitle from '../Thitle';
+import Thitle from '../../../ThitleLabel/Thitle';
 import Button from '../Footer/Button/Button';
 
 export default function Page1() {
@@ -7,7 +7,11 @@ export default function Page1() {
   const olClass = "text-[2rem] mt-[0.5rem] mx-auto xl:text-[3rem]"
   return (
     <>
-      <Thitle className="bg-white text-[3rem] text-[#174C61] inline-block border-[5px] border-[#333] mt-[1rem] rounded-xl xl:ml-[10rem]">目次</Thitle>
+      <Thitle
+        className="bg-white text-[3rem] text-[#174C61] inline-block border-[5px] border-[#333] mt-[1rem] rounded-xl xl:ml-[10rem]"
+      >
+        目次
+      </Thitle>
       <div className='flex'>
         <ol className={`${olClass}`}>
           <li className={`${listClass}`}>1:サーバーとは</li>

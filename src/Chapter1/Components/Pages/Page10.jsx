@@ -1,5 +1,5 @@
 import React from 'react';
-import Thitle from '../Thitle';
+import Thitle from '../../../ThitleLabel/Thitle';
 import Server from './Components/Server';
 import Client from './Components/Client'
 import Restaurant from './Components/Restaurant';

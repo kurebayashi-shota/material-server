@@ -1,7 +1,7 @@
 import React from 'react';
-import Thitle from '../Thitle';
-import Server from '../../assets/server2.png'
-import Client from '../../assets/pc.png'
+import Thitle from '../../../ThitleLabel/Thitle';
+import Server from '../../../assets/PcImage/server2.png'
+import Client from '../../../assets/PcImage/pc.png'
 
 export default function Page4() {
 
