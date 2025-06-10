@@ -1,10 +1,10 @@
 import React from 'react';
-import Thitle from '../Thitle';
-import Cui from '../../assets/cui.png'
+import Thitle from '../../../../ThitleLabel/Thitle';
+import Cui from '../../assets/Pcimage/cui.png'
 
-export default function Page14() {
+export default function Page7({ className }) {
   return (
-    <>
+    <div className={`${className}`}>
       <Thitle
         className="bg-white text-[2.5rem] text-[#174C61] inline-block border-[5px] border-[#333] mt-[1rem] rounded-xl xl:ml-[10rem]"
       >
@@ -22,6 +22,6 @@ export default function Page14() {
           </div>
         </section>
       </div>
-    </>
+    </div>
   )
 }

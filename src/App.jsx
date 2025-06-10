@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Index from '.'
+import Top from './Top'
 import Chapter1 from './Chapter1/Chapter1'
 import Chapter2 from './Chapter2/Chapter2'
 import './App.css'
@@ -11,7 +11,7 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path='/' element={<Index />} />
+        <Route path='/' element={<Top />} />
         <Route path='Chapter1/*' element={<Chapter1 />} />
         <Route path='Chapter2/*' element={<Chapter2 />} />
       </Routes>

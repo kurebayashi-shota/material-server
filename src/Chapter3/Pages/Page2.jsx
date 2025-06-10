@@ -1,13 +1,13 @@
 import React from 'react';
-import Thitle from '../Thitle';
-import Logo from './Components/Logo';
-import Windows from '../../assets/windows.png'
-import Apple from '../../assets/apple.png'
-import Linux from '../../assets/linux.png'
+import Thitle from '../../ThitleLabel/Thitle';
+import Logo from '../../Chapter1/Components/Pages/Components/Logo';
+import Windows from '../../assets/Os/windows.png'
+import Apple from '../../assets/Os/apple.png'
+import Linux from '../../assets/Os/linux.png'
 
-export default function Page15() {
+export default function Page2({ className }) {
   return (
-    <>
+    <div className={`${className}`}>
       <Thitle
         className="bg-white text-[2.5rem] text-[#174C61] inline-block border-[5px] border-[#333] mt-[1rem] rounded-xl xl:ml-[10rem]"
       >
@@ -31,6 +31,6 @@ export default function Page15() {
           </div>
         </section>
      </div>
-    </>
+    </div>
   )
 }

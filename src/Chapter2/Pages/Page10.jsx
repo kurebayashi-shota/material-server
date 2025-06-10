@@ -1,13 +1,10 @@
 import React from 'react';
-import Thitle from '../Thitle';
-import Linux from '../../assets/linux.png'
-import Server from '../../assets/server.png'
-import Client from '../../assets/pc.png'
-import DoubleArrowIcon from '@mui/icons-material/DoubleArrow';
+import Thitle from '../../ThitleLabel/Thitle'
+import Linux from '../../assets/Os/linux.png'
 
-export default function Page18() {
+export default function Page10({ className }) {
   return (
-    <>
+    <div className={`${className}`}>
       <Thitle
         className="bg-white text-[2.5rem] text-[#174C61]  inline-block border-[5px] border-[#333] mt-[1rem] rounded-xl xl:ml-[10rem]"
       >
@@ -30,6 +27,6 @@ export default function Page18() {
           </div>
         </section>
       </div>
-    </>
+    </div>
   )
 }
