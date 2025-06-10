@@ -5,7 +5,7 @@ export default function Thitle({className , children}) {
     <h1 
         className={`ml-[2rem] font-bold ${className}`}
     >
-        {children}
+      { children }
     </h1>
   )
 }

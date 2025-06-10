@@ -1,8 +1,8 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import SelectFooter from './Components/Footer/SelectFooter'
 import ContentLayout from './Components/Pages/ContentLayout'
-import Top from './Components/Pages/Top';
+import SelectFooter from './Components/Footer/SelectFooter'
+import Index from './Components/Pages/Index';
 import Page1 from './Components/Pages/Page1';
 import Page2 from './Components/Pages/Page2';
 import Page3 from './Components/Pages/Page3';
@@ -43,9 +43,11 @@ export default function Chapter1() {
                 }
               >
                 <Route
-                  index element={<Top />} />
+                  index
+                  element={<Index />}
+                />
                 {routes.map((route)=> (
-                 <Route key={route.id} path={route.path} element={route.element} />
+                  <Route key={route.id} path={route.path} element={route.element} />
                 ))}
               </Route>
             </Routes>

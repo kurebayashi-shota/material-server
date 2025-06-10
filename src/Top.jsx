@@ -1,7 +1,7 @@
 import React from 'react'
 import Thitle from './ThitleLabel/Thitle'
 
-export default function Index() {
+export default function Top() {
   return (
     <div
       className='flex items-center justify-center h-screen'
