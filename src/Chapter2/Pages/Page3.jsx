@@ -1,13 +1,13 @@
 import React from 'react';
 import Thitle from '../../ThitleLabel/Thitle';
 import Logo from '../../Chapter1/Components/Pages/Components/Logo';
-import blade from '../../assets/Pcimage/Server/blade.jpg'
-import tower from '../../assets/Pcimage/Server/tower.jpg'
-import rack from '../../assets/Pcimage/Server/rack.jpg'
-import primergy from '../../assets/Pcimage/Server/primergy.jpg'
-import endeavor from '../../assets/Pcimage/Server/endeavor.jpg'
-import virtualbox from '../../assets/Pcimage/Server/virtualbox.png'
-import hyperv from '../../assets/Pcimage/Server/hyper-v.png'
+import blade from '../../assets/PcImage/Server/blade.jpg'
+import tower from '../../assets/PcImage/Server/tower.jpg'
+import rack from '../../assets/PcImage/Server/rack.jpg'
+import primergy from '../../assets/PcImage/Server/primergy.jpg'
+import endeavor from '../../assets/PcImage/Server/endeavor.jpg'
+import virtualbox from '../../assets/PcImage/Server/virtualbox.png'
+import hyperv from '../../assets/PcImage/Server/hyper-v.png'
 
 export default function Page3({ className }) {
   return (

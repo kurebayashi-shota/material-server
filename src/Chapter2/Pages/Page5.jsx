@@ -1,7 +1,7 @@
 import React from 'react';
 import Thitle from '../../ThitleLabel/Thitle';
-import primergy from '../../assets/Pcimage/Server/primergy.jpg'
-import virtualbox from '../../assets/Pcimage/Server/virtualbox.png'
+import primergy from '../../assets/PcImage/Server/primergy.jpg'
+import virtualbox from '../../assets/PcImage/Server/virtualbox.png'
 import DoubleArrowIcon from '@mui/icons-material/DoubleArrow';
 
 export default function Page5({ className }) {

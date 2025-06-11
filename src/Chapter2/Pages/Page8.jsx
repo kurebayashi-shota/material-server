@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Page4({ className }) {
+export default function Page8({ className }) {
   return (
     <div className={`${className}`}>
       <div className='grid place-items-center h-[100%]'>

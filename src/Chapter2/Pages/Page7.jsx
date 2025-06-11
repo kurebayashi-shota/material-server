@@ -1,7 +1,7 @@
 import React from 'react';
 import Thitle from '../../ThitleLabel/Thitle';
-import Server from '../../assets/Pcimage/server.png'
-import Client from '../../assets/Pcimage/pc.png'
+import Server from '../../assets/PcImage/server.png'
+import Client from '../../assets/PcImage/pc.png'
 
 export default function Page7({ className }) {
   const contentsClass = "border-[3px] border-[#333] rounded-lg text-[1rem]";
