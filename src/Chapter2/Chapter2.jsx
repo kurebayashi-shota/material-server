@@ -2,8 +2,8 @@ import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import ContentLayout from './ContentLayout'
 import Index from './Index'
-import Page1 from './Pages/Page1'
-import Page2 from './Pages/Page2'
+import Page1 from './Pages/Page1';
+import Page2 from './Pages/Page2';
 import Page3 from './Pages/Page3';
 import Page4 from './Pages/Page4';
 import Page5 from './Pages/Page5';
@@ -11,10 +11,6 @@ import Page6 from './Pages/Page6';
 import Page7 from './Pages/Page7';
 import Page8 from './Pages/Page8';
 import Page9 from './Pages/Page10';
-// import Page10 from './Pages/Page10';
-// import Page11 from './Pages/Page11';
-// import Page12 from './Pages/Page12';
-// import Page13 from './Pages/Page13';
 
 export default function Chapter2() {
   const pages = [
