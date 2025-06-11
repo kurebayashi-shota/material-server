@@ -9,7 +9,7 @@ export default function Index({ className }) {
         <Thitle
           className="text-[#174C61] text-[80px] xl:text-[150px]"
         >
-          構成について
+          OSについて
         </Thitle>
     </div>
   )

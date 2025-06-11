@@ -25,7 +25,7 @@ export default function Page9({ className }) {
                   ホスト型
                 </h3>
                 <div className='flex'>
-                <Logo src={`${virtualbox}`}>Oracle<br/>VirtualBox</Logo>
+                  <Logo src={`${virtualbox}`}>Oracle<br/>VirtualBox</Logo>
                 </div>
               </span>
               <span className='ml-20'>
