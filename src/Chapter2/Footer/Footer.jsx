@@ -8,7 +8,7 @@ export default function Footer({ className, pages }) {
   let andoPath = "/chapter2";
   const currentPath = location.pathname;
   const match = currentPath.match(/^\/chapter2\/page(\d+)$/);
-
+ 
   if ( !match ){
     nextPath = "/chapter2/page1";
   }else if( match[1] == pages.length ){
