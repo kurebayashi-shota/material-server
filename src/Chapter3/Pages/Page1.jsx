@@ -1,23 +1,22 @@
 import React from 'react';
 import Thitle from '../../ThitleLabel/Thitle';
-import Comparison from '../../assets/Other/comparison.png'
 
 export default function Page1({ className }) {
+  const listClass = "display: table border-b-[2px] border-b-[tomato]";
+  const olClass = "text-[2rem] mt-[0.5rem] mx-auto xl:text-[3rem]"
   return (
     <div className={`${className}`}>
       <Thitle
-        className="bg-white text-[2.5rem] text-[#174C61] inline-block border-[5px] border-[#333] mt-[1rem] rounded-xl xl:ml-[10rem]"
+        className="bg-white text-[3rem] text-[#174C61] inline-block border-[5px] border-[#333] mt-[1rem] rounded-xl xl:ml-[10rem]"
       >
-        OSについて
+        目次
       </Thitle>
-
-      <div className='grid place-items-center h-[80%]'>
-        <section className='mt-[2rem] text-center'>
-          <h2 className='font-bold text-[2rem] inline-block xl:text-[3rem] rounded-xl'>
-            普段使っているパソコンとサーバーは<br />ソフトウェアだけが違うと説明しました
-          </h2>
-          <img className='mt-4 h-60 w-80 mx-auto' src={`${Comparison}`} alt="CUI画像" />
-          </section>
+      <div className='flex'>
+        <ol className={`${olClass}`}>
+          <li className={`${listClass}`}>1:OSについて</li>
+          <li className={`${listClass}`}>2:Linuxとは</li>
+          <li className={`${listClass}`}>3:Ubuntuとは</li>
+        </ol>
       </div>
     </div>
   )
