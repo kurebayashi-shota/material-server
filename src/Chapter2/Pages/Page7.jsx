@@ -1,14 +1,14 @@
 import React from 'react';
 import Thitle from '../../ThitleLabel/Thitle';
-import Server from '../../assets/PcImage/server.png'
-import Client from '../../assets/PcImage/pc.png'
+import Server from '../../assets/PcImage/server.png';
+import Client from '../../assets/PcImage/pc.png';
 
 export default function Page7({ className }) {
   const contentsClass = "border-[3px] border-[#333] rounded-lg text-[1rem]";
   const contentsClassunder = "pl-15 border-[3px] border-[#333] text-[1rem] w-100 rounded-lg text-center xl:w-130";
 
   return (
-    <div className={`${className} h-[80%]`}>
+    <div className={`${className}`}>
       <Thitle
         className="bg-white text-[2.5rem] text-[#174C61] inline-block border-[5px] border-[#333] mt-[1rem] rounded-xl xl:ml-[10rem]"
       >
@@ -24,7 +24,7 @@ export default function Page7({ className }) {
               </h2>
               <img className='mt-5 mb-5 h-30 w-60 xl:h-40 xl:w-80 rounded-xl' src={`${Server}`} alt="" />
               <div className={`${contentsClass}`}>ファイル管理用<br/>ソフトウェア</div>
-              <div className={`${contentsClass}`}>OS(Linax)</div>
+              <div className={`${contentsClass}`}>OS(Linux)</div>
             </section>
             <section className='mt-[2rem] text-center mr-0'>
               <h2 className='font-bold text-[2rem] border-b-[3px] border-b-[tomato] inline-block xl:text-[3rem]'>

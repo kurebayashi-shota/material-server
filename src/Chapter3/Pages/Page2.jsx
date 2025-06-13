@@ -1,9 +1,6 @@
 import React from 'react';
 import Thitle from '../../ThitleLabel/Thitle';
-import Logo from '../../Chapter1/Components/Pages/Components/Logo';
-import Windows from '../../assets/Os/windows.png'
-import Apple from '../../assets/Os/apple.png'
-import Linux from '../../assets/Os/linux.png'
+import Comparison from '../../assets/Other/comparison.png'
 
 export default function Page2({ className }) {
   return (
@@ -16,21 +13,13 @@ export default function Page2({ className }) {
 
       <div className='grid place-items-center h-[80%]'>
         <section className='mt-[2rem] text-center'>
-          <h2 className='font-bold text-[2rem] border-b-[3px] border-b-[tomato] inline-block'>
-            パソコンでよく使われるOS
+          <h2 className='font-bold text-[2rem] inline-block xl:text-[3rem] rounded-xl'>
+            普段使っているパソコンとサーバーは<br />ソフトウェアだけが違うと説明しました
           </h2>
-          <div className='mt-5 flex'>
-            <span>
-              <div className='flex'>
-                <Logo src={`${Windows}`}>Windows</Logo>
-                <Logo src={`${Apple}`}>Mac</Logo>
-                <Logo src={`${Linux}`}>Linux<br/>ディストリビューション</Logo>
-              </div>
-              <div className='-mt-3'>etc...</div>
-            </span>
-          </div>
+          <img className='mt-4 h-60 w-80 mx-auto' src={`${Comparison}`} alt="CUI画像" />
+          <div className='mt-5 text-[1.5rem]'>ではOSはどうでしょうか?</div>
         </section>
-     </div>
+      </div>
     </div>
   )
 }

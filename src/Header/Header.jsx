@@ -58,14 +58,14 @@ export default function Header() {
           第一回
         </Link>
         <Link
-          to="/Chapter2"
+          to="/chapter2"
           className="block px-4 py-2 hover:bg-gray-700"
           onClick={() => setIsOpen(false)}
         >
           第二回
         </Link>
         <Link
-          to="/Chapter3"
+          to="/chapter3"
           className="block px-4 py-2 hover:bg-gray-700"
           onClick={() => setIsOpen(false)}
         >

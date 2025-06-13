@@ -1,8 +1,8 @@
 import React from 'react';
 import Thitle from '../../ThitleLabel/Thitle';
 import Logo from '../../Chapter1/Components/Pages/Components/Logo';
-import virtualbox from '../../assets/PcImage/Server/virtualbox.png'
-import hyperv from '../../assets/PcImage/Server/hyper-v.png'
+import virtualbox from '../../assets/PcImage/Server/virtualbox.png';
+import hyperv from '../../assets/PcImage/Server/hyper-v.png';
 
 export default function Page9({ className }) {
   return (

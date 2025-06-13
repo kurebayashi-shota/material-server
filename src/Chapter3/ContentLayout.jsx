@@ -1,7 +1,7 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
 import back2 from '../assets/Other/back2.jpg';
-import Footer from './Footer/Footer';
+import Footer from '../Chapter2/Footer/Footer';
 
 export default function ContentLayout({ className, pages }) {
   return (

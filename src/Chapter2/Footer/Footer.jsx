@@ -3,32 +3,38 @@ import ArrowButtom from './ArrowButtom'
 
 export default function Footer({ className, pages }) {
   const location = useLocation();
-
-  let nextPath = "/chapter2/page1";
-  let andoPath = "/chapter2";
   const currentPath = location.pathname;
-  const match = currentPath.match(/^\/chapter2\/page(\d+)$/);
- 
-  if ( !match ){
-    nextPath = "/chapter2/page1";
-  }else if( match[1] == pages.length ){
-    nextPath = '/chapter2';
-  }else if(match){
-    const currentPageNum = parseInt(match[1], 10);
-    const nextPageNum = currentPageNum + 1;
-    nextPath = `/chapter2/page${nextPageNum}`;
-    if(currentPageNum > 1){
-      const andoPageNum = currentPageNum - 1;
-      andoPath = `/chapter2/page${andoPageNum}`;
-    }
-  } else {
-    nextPath = '/';
-  }
 
+  let match = currentPath.match(/^\/chapter(\d+).*$/);
+  const chapter = match[1];
+  let nextPath = `/chapter${chapter}/page1`;
+  let andoPath = `/chapter${chapter}/page${pages.length}`
+
+  if ( currentPath.match(/^\/chapter(\d+)\/page(\d+)$/) ){
+    const match = currentPath.match(/^\/chapter(\d+)\/page(\d+)$/);
+
+    const nextPageNum = (parseInt(match[2], 10) + 1);
+    const andoPageNum = (parseInt(match[2], 10) - 1);
+
+    nextPath = `/chapter${chapter}/page${nextPageNum}`;
+    andoPath = `/chapter${chapter}/page${andoPageNum}`;
+
+    if( nextPageNum == pages.length + 1 ){
+      nextPath = `/chapter${chapter}`;
+    }else if( andoPageNum == 0 ){
+      andoPath = `/chapter${chapter}`;
+    }
+  }
   return (
     <div className={`flex mb-10 mx-10 ${className}`}>
-      <ArrowButtom to={andoPath} className="transform scale-x-[-1]" />
-      <ArrowButtom to={nextPath} className='mr-0 ml-auto'/>
+      <ArrowButtom
+        to={andoPath}
+        className="transform scale-x-[-1]"
+      />
+      <ArrowButtom
+        to={nextPath}
+        className='mr-0 ml-auto'
+      />
     </div>
   )
 }

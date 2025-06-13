@@ -13,9 +13,9 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<Top />} />
-        <Route path='Chapter1/*' element={<Chapter1 />} />
-        <Route path='Chapter2/*' element={<Chapter2 />} />
-        <Route path='Chapter3/*' element={<Chapter3 />} />
+        <Route path='chapter1/*' element={<Chapter1 />} />
+        <Route path='chapter2/*' element={<Chapter2 />} />
+        <Route path='chapter3/*' element={<Chapter3 />} />
       </Routes>
     </Router>
   )
