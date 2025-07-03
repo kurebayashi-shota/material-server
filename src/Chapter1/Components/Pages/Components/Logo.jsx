@@ -1,10 +1,10 @@
 import React from 'react'
 
-export default function Logo({ children, src}) {
+export default function Logo({ className, children, src}) {
   return (
     <>
         <figure>
-            <img className='w-15 h-15 mx-10' src={`${src}`} alt="Apacheロゴ" />
+            <img className={`h-15 w-auto mx-10 ${className}`} src={`${src}`} alt="Apacheロゴ" />
             <figcaption className='mx-auto'>{children}</figcaption>
         </figure>
     </>

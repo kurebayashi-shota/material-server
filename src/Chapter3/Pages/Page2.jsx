@@ -11,10 +11,10 @@ export default function Page2({ className }) {
         OSについて
       </Thitle>
 
-      <div className='grid place-items-center h-[80%]'>
+      <div className='grid place-items-center h-[80%] -mt-[5rem]'>
         <section className='mt-[2rem] text-center'>
           <h2 className='font-bold text-[2rem] inline-block xl:text-[3rem] rounded-xl'>
-            普段使っているパソコンとサーバーは<br />ソフトウェアだけが違うと説明しました
+            普段使っているパソコンと<br />サーバーはソフトウェアだけが違うと説明しました
           </h2>
           <img className='mt-4 h-60 w-80 mx-auto' src={`${Comparison}`} alt="CUI画像" />
           <div className='mt-5 text-[1.5rem]'>ではOSはどうでしょうか?</div>

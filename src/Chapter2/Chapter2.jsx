@@ -19,7 +19,7 @@ export default function Chapter2() {
     id: index + 1,
     path: `page${index + 1}`,
     element: <PageComponent className="h-[70%]" />,
-    page: `chapter1/page${index + 1}`,
+    page: `chapter2/page${index + 1}`,
   }));
 
   return (
@@ -30,7 +30,7 @@ export default function Chapter2() {
                 element={
                     <ContentLayout
                         className="h-screen"
-                        pages={pages}
+                        pages={routes}
                     />
                 }
             >
@@ -41,7 +41,11 @@ export default function Chapter2() {
                     }
                 />
                 {routes.map((route)=> (
-                  <Route key={route.id} path={route.path} element={route.element} />
+                  <Route
+                    key={route.id}
+                    path={route.path}
+                    element={route.element}
+                  />
                 ))}
             </Route>
         </Routes>

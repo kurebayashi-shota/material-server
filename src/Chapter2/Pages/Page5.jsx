@@ -35,7 +35,7 @@ export default function Page5({ className }) {
           <DoubleArrowIcon className='my-auto mx-[2rem]' sx={{ fontSize:100 }} />
           <div className='flex flex-col items-center'>
             <img className='h-30 w-30' src={`${primergy}`} alt="クライアント画像" />
-            <span>コンピューター</span>
+            <span>仮想コンピューター</span>
           </div>
         </section>
       </div>

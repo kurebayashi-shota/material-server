@@ -11,18 +11,15 @@ import Page6 from './Pages/Page6';
 import Page7 from './Pages/Page7';
 import Page8 from './Pages/Page8';
 import Page9 from './Pages/Page9';
-// import Page10 from './Pages/Page10';
+import Page10 from './Pages/Page10';
 
 export default function Chapter3() {
-  const pages = [
-    Page1,Page2,Page3,Page4,Page5,Page6,Page7,Page8,Page9,
-    // Page10,
-]
+  const pages = [Page1,Page2,Page3,Page4,Page5,Page6,Page7,Page8,Page9,Page10,]
   const routes = pages.map((PageComponent, index) => ({
     id: index + 1,
     path: `page${index + 1}`,
     element: <PageComponent className="h-[70%]" />,
-    page: `chapter1/page${index + 1}`,
+    page: `chapter3/page${index + 1}`,
   }));
 
   return (
@@ -33,7 +30,7 @@ export default function Chapter3() {
                 element={
                     <ContentLayout
                         className="h-screen"
-                        pages={pages}
+                        pages={routes}
                     />
                 }
             >
@@ -44,7 +41,11 @@ export default function Chapter3() {
                     }
                 />
                 {routes.map((route)=> (
-                  <Route key={route.id} path={route.path} element={route.element} />
+                  <Route
+                    key={route.id}
+                    path={route.path}
+                    element={route.element}
+                  />
                 ))}
             </Route>
         </Routes>
