@@ -19,12 +19,12 @@ export default function Page4() {
             サーバー用のソフトウェアが動いていればリクエストを受け付けてくれて処理をしてくれます。
           </div>
         </section>
-        <section className='mt-[2rem] text-center'>
+        <section className='text-center'>
           <h2 className='font-bold text-[1.5rem] w-[40rem] flex-wrap mx-auto xl:text-[2rem] xl:w-[60rem]'>
             つまりあなたのパソコンもサーバー用ソフトウェアさえ入っていればサーバーになります。
           </h2>
-          <div className='mt-5 w-[30rem] mx-auto xl:text-[1.5rem]'>
-            規模によってハードウェアは異なります。
+          <div className='mt-[1rem] w-[30rem] mx-auto xl:text-[1.5rem]'>
+            ※規模によってハードウェアは異なります。
           </div>
         </section>
       </div>

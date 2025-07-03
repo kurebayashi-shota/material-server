@@ -2,7 +2,16 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 export default function Header() {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
+  const ChapterClass = "block px-4 py-2 hover:bg-gray-700";
+  const chapters = [
+    {id:1, to:"/",value:"トップ"},
+    {id:2, to:"/chapter1",value:"第一回",},
+    {id:3, to:"/chapter2",value:"第二回",},
+    {id:4, to:"/chapter3",value:"第三回",},
+    {id:5, to:"/chapter4",value:"第四回",},
+    {id:6, to:"/chapter5",value:"第五回",},
+  ]
 
   return (
     <nav className="bg-gray-800 text-white w-7 relative -mb-7.5 z-10">
@@ -43,34 +52,16 @@ export default function Header() {
           isOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
         }`}
       >
-        <Link
-          to="/"
-          className="block px-4 py-2 hover:bg-gray-700"
-          onClick={() => setIsOpen(false)}
-        >
-          トップ
-        </Link>
-        <Link
-          to="/chapter1"
-          className="block px-4 py-2 hover:bg-gray-700"
-          onClick={() => setIsOpen(false)}
-        >
-          第一回
-        </Link>
-        <Link
-          to="/chapter2"
-          className="block px-4 py-2 hover:bg-gray-700"
-          onClick={() => setIsOpen(false)}
-        >
-          第二回
-        </Link>
-        <Link
-          to="/chapter3"
-          className="block px-4 py-2 hover:bg-gray-700"
-          onClick={() => setIsOpen(false)}
-        >
-          第三回
-        </Link>
+        {chapters.map((chapter)=>(
+          <Link
+            key={chapter.id}
+            to={chapter.to}
+            className={`${ChapterClass}`}
+            onClick={() => setIsOpen(false)}
+          >
+            {chapter.value}
+          </Link>
+        ))}
       </div>
     </nav>
   )

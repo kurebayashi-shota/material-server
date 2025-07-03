@@ -31,7 +31,7 @@ export default function Chapter1() {
 
   return (
     // <Router>
-      <div className='h-screen w-screen'>
+      <div className='h-screen w-screen overflow-hidden'>
           <div className='flex h-[90%]'>
             <Routes>
               <Route

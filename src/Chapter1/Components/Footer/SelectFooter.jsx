@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import HomeIcon from '@mui/icons-material/Home';
-import FooterButton from './Button/FooterButton'
 import ArrowButton from './Button/ArrowButton'
 import Button from './Button/Button';
 
@@ -9,7 +8,7 @@ export default function SelectFooter({ className, routes }) {
 
   const buttonStyles = '-mt-[30px] bg-white rounded-full';
   return (
-    <nav className={`flex justify-between bg-[#174C61] ${className}`}>
+    <nav className={`mt-[1rem] transform duration-200 flex justify-between bg-[#174C61] opacity-40 hover:mt-0 hover:opacity-100 ${className}`}>
 
         <Link
           className=''
@@ -23,7 +22,7 @@ export default function SelectFooter({ className, routes }) {
 
         {/* <HomeButton className={`xl:ml-[50px] -mt-[30px] bg-white rounded-full`} /> */}
 
-        {/* 配列はChapter1.jsxから受け取ってる */}
+        {/* オブジェクトはChapter1.jsxから受け取ってる */}
         {routes.map((route) =>(
         <Button
           key={route.id}

@@ -22,16 +22,14 @@ export default function Page7({ className }) {
               <h2 className='font-bold text-[2rem] border-b-[3px] border-b-[tomato] inline-block xl:text-[3rem]'>
                 VM1
               </h2>
-              <img className='mt-5 mb-5 h-30 w-60 xl:h-40 xl:w-80 rounded-xl' src={`${Server}`} alt="" />
-              <div className={`${contentsClass}`}>ファイル管理用<br/>ソフトウェア</div>
+              <div className={`w-60 ${contentsClass}`}>ファイル管理用<br/>ソフトウェア</div>
               <div className={`${contentsClass}`}>OS(Linux)</div>
             </section>
             <section className='mt-[2rem] text-center mr-0'>
               <h2 className='font-bold text-[2rem] border-b-[3px] border-b-[tomato] inline-block xl:text-[3rem]'>
                 VM2
               </h2>
-              <img className='mt-5 mb-5 h-30 w-40 xl:h-40 xl:w-50' src={`${Client}`} alt="" />
-              <div className={`${contentsClass}`}>Webアプリ用<br/>ソフトウェア</div>
+              <div className={`w-40 ${contentsClass}`}>Webアプリ用<br/>ソフトウェア</div>
               <div className={`${contentsClass}`}>OS(Windows)</div>
             </section>
           </div>
