@@ -1,6 +1,6 @@
 import React from 'react';
 import Thitle from '../../ThitleLabel/Thitle';
-import ServerIcon from '../../assets/PcImage/Server/ServerIcon.png'
+import ServerIcon from '../../assets/PcImage/Server/servericon.png'
 import CompanyIcon from '../../assets/Other/companyicon.png'
 import CloudIcon from '../../assets/PcImage/Server/cloudicon.png'
 
