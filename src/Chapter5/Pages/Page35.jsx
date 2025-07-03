@@ -1,7 +1,7 @@
 import { useOutletContext } from 'react-router-dom'
 import StepRayout from './StepRayout'
 import Thitle from '../../ThitleLabel/Thitle'
-import Create1 from '../../assets/Tutorial/OsSetup/Osset21.png'
+import Create1 from '../../assets/Tutorial/OsSetup/osSet21.png'
 
 export default function Page35() {
   const { detailClass, frameClass } = useOutletContext();

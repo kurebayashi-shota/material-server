@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import Thitle from '../../ThitleLabel/Thitle';
 import Logo from '../../Chapter1/Components/Pages/Components/Logo';
 import Visual from '../../assets/Software/MicrosoftVisual.png';
-import Virtul from '../../assets/Pcimage/Server/virtualbox.png';
+import Virtul from '../../assets/PcImage/Server/virtualbox.png';
 import Ubuntu from '../../assets/Os/ubuntu.png';
 
 export default function Page2({ className }) {

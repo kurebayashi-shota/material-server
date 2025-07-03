@@ -1,7 +1,7 @@
 import React from 'react';
 import Thitle from '../../ThitleLabel/Thitle';
-import Cui from '../../assets/Pcimage/cui.png'
-import Gui from '../../assets/Pcimage/gui.png';
+import Cui from '../../assets/PcImage/cui.png'
+import Gui from '../../assets/PcImage/gui.png';
 import DoubleArrowIcon from '@mui/icons-material/DoubleArrow';
 import ClearIcon from '@mui/icons-material/Clear';
 
