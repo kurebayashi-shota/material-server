@@ -1,11 +1,9 @@
-import React from 'react'
+import { useOutletContext } from 'react-router-dom'
+import SimpleLayout from '../../Template/PageTemp/SimpleLayout'
 
 export default function Page4({ className }) {
+  const {chapter} = useOutletContext();
   return (
-    <div className={`${className}`}>
-      <div className='grid place-items-center h-[100%]'>
-        <div className='text-[#333] text-[4rem] font-bold border-b-[5px] border-b-[tomato] xl:text-[6rem]'>仮想マシンとは</div>
-      </div>
-    </div>
+    <SimpleLayout className={className} agendaNum={1} dataNum={1} chapter={chapter} />
   )
 }

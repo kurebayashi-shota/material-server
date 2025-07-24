@@ -1,10 +1,8 @@
 import React from 'react';
 import Thitle from '../../ThitleLabel/Thitle';
-import Server from '../../assets/PcImage/server.png';
-import Client from '../../assets/PcImage/pc.png';
 
 export default function Page10({ className }) {
-  const contentsClass = "border-[3px] border-[#333] rounded-lg text-[1rem]";
+  const contentsClass = "border-[3px] border-[#333] rounded-lg text-[1rem] xl:w-65";
   const contentsClassunder = "pl-15 border-[3px] border-[#333] text-[1rem] w-100 rounded-lg text-center xl:w-130";
 
   return (

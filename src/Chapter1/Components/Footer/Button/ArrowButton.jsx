@@ -14,7 +14,7 @@ export default function Button({className}) {
     const match = currentPath.match(/^\/chapter1\/page(\d+)$/);
     if (!match){
       navigate("/chapter1/page1");
-    }else if(match[1] == '13'){
+    }else if(match[1] == '11'){
       navigate('/');
     }else if(match){
       const currentPageNum = parseInt(match[1], 10);

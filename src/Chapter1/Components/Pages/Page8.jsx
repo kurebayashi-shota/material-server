@@ -3,8 +3,9 @@ import Thitle from '../../../ThitleLabel/Thitle';
 import Server from '../../../assets/PcImage/server.png'
 import Client from '../../../assets/PcImage/pc.png'
 import SettingsEthernetIcon from '@mui/icons-material/SettingsEthernet';
-
+import clickHandlerNum from '../../../Template/Hooks/Handlers/clickHandlerNum';
 export default function Page8() {
+  const isHidden = clickHandlerNum();
   return (
     <>
       <Thitle className="bg-white text-[2.5rem] text-[#174C61] w-[40.5rem] border-[5px] border-[#333] mt-[1rem] rounded-xl">クライアントサーバー方式について</Thitle>
@@ -25,7 +26,11 @@ export default function Page8() {
             <span>クライアント</span>
           </div>
         </section>
-        <section className='bg-white p-3 text-center border-[3px] rounded-xl mb-10'>
+        <div className={`${isHidden == 0 ? "opacity-100" : "opacity-0"} font-bold text-[tomato] mt-[5rem]`}>
+          画面をクリックして下さい
+        </div>
+        
+        <section className={`${isHidden < 1 ? "opacity-0" : "opacity-500"} transform duration-1000 -mt-[9rem] text-center`}>
           <h2 className='font-bold text-[2rem] border-b-[3px] border-b-[tomato] inline-block xl:text-[3rem]'>
             クライアントとサーバーに処理を分散させる方式
           </h2>

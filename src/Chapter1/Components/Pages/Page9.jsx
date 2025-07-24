@@ -1,8 +1,10 @@
 import React from 'react';
 import Thitle from '../../../ThitleLabel/Thitle';
 import FoodService from '../../../assets/Other/food_server.png'
+import clickHandlerNum from '../../../Template/Hooks/Handlers/clickHandlerNum';
 
 export default function Page9() {
+  const isHidden = clickHandlerNum();
   return (
     <>
       <Thitle
@@ -41,7 +43,11 @@ export default function Page9() {
             </span>
           </div>
         </section>
-        <section className='justify-center'>
+        <div className={`${isHidden == 0 ? "opacity-100" : "opacity-0"} font-bold text-[tomato] mt-[7rem]`}>
+          画面をクリックして下さい
+        </div>
+        
+        <section className={`${isHidden < 1 ? "opacity-0" : "opacity-500"} transform duration-1000 -mt-[9rem] text-center`}>
           <h2 className='font-bold text-[1.5rem] text-center'>サービス業をイメージして下さい</h2>
           <div className='my-2 w-[30rem] mx-auto'>飲食店はサービス業なので料理を提供する人がサーバー<br/>で食べている人たちがクライアントです。</div>
           <img className='h-30 w-70 mx-auto' src={`${FoodService}`} alt="飲食画像" />

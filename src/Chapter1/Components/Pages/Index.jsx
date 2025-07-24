@@ -1,16 +1,13 @@
 import React from 'react'
-import Thitle from '../../../ThitleLabel/Thitle'
+import Title from '../../../Template/Title/Title'
+import { TitleData } from '../../../Data/TitleData'
 
-export default function Top() {
+export default function Index({ className }) {
   return (
-    <div
-      className='flex items-center justify-center h-full'
-    >
-        <Thitle
-          className="text-[#174C61] text-[80px] xl:text-[150px]"
-        >
-          サーバーについて
-        </Thitle>
+    <div className={`flex justify-center items-center h-full w-full ${className}`}>
+      <Title className="text-[#174C61] text-[5rem] xl:text-[150px]">
+        {TitleData[1].index}
+      </Title>
     </div>
   )
 }

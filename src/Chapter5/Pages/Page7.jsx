@@ -1,5 +1,5 @@
 import { useOutletContext} from 'react-router-dom';
-import Thitle from '../../ThitleLabel/Thitle'
+import Title from '../../Template/Title/TitleLabel';
 import Create from '../../assets/Tutorial/VmCreate/vmCreate4.png'
 import StepRayout from './StepRayout'
 
@@ -21,11 +21,11 @@ export default function Page7() {
   
   return (
   <div className="h-[70%] justify-center">
-    <Thitle
+    <Title
       className="bg-white text-[2.5rem] text-[#174C61] inline-block border-[5px] border-[#333] mt-[1rem] rounded-xl xl:ml-[10rem]"
     >
       VMの作成
-    </Thitle>
+    </Title>
     <StepRayout stepContents={stepContents} />
   </div>
   )

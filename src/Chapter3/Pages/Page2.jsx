@@ -1,6 +1,6 @@
 import React from 'react';
 import Thitle from '../../ThitleLabel/Thitle';
-import Comparison from '../../assets/Other/comparison.png'
+import Images from '../../Data/ImageImport';
 
 export default function Page2({ className }) {
   return (
@@ -16,7 +16,7 @@ export default function Page2({ className }) {
           <h2 className='font-bold text-[2rem] inline-block xl:text-[3rem] rounded-xl'>
             普段使っているパソコンと<br />サーバーはソフトウェアだけが違うと説明しました
           </h2>
-          <img className='mt-4 h-60 w-80 mx-auto' src={`${Comparison}`} alt="CUI画像" />
+          <img className='mt-4 h-60 w-80 mx-auto' src={Images[2][0]} alt="CUI画像" />
           <div className='mt-5 text-[1.5rem]'>ではOSはどうでしょうか?</div>
         </section>
       </div>

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import Thitle from '../../ThitleLabel/Thitle';
+import Title from '../../Template/Title/TitleLabel';
 import Logo from '../../Chapter1/Components/Pages/Components/Logo';
 import Visual from '../../assets/Software/MicrosoftVisual.png';
 import Virtul from '../../assets/PcImage/Server/virtualbox.png';
@@ -9,11 +9,9 @@ export default function Page2({ className }) {
   const textClass = "text-[1.5rem] xl:text-[2rem]";
   return (
     <div className={`${className}`}>
-      <Thitle
-        className="bg-white text-[2.5rem] text-[#174C61] inline-block border-[5px] border-[#333] mt-[1rem] rounded-xl xl:ml-[10rem]"
-      >
+      <Title>
         準備
-      </Thitle>
+      </Title>
 
       <div className='grid place-items-center h-[80%]'>
         <section>
