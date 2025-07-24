@@ -1,7 +1,9 @@
 import React from 'react';
 import Thitle from '../../../ThitleLabel/Thitle';
+import useHandleClick from '../../../Template/Hooks/Handlers/clickHandlerNum'
 
 export default function Page4() {
+  const isHidden = useHandleClick();
   return (
     <>
       <Thitle
@@ -19,7 +21,12 @@ export default function Page4() {
             サーバー用のソフトウェアが動いていればリクエストを受け付けてくれて処理をしてくれます。
           </div>
         </section>
-        <section className='text-center'>
+
+        <div className={`${isHidden == 0 ? "opacity-100" : "opacity-0"} font-bold text-[tomato] mt-[5rem]`}>
+          画面をクリックして下さい
+        </div>
+        
+        <section className={`${isHidden < 1 ? "opacity-0" : "opacity-500"} transform duration-1000 -mt-[9rem] text-center`}>
           <h2 className='font-bold text-[1.5rem] w-[40rem] flex-wrap mx-auto xl:text-[2rem] xl:w-[60rem]'>
             つまりあなたのパソコンもサーバー用ソフトウェアさえ入っていればサーバーになります。
           </h2>

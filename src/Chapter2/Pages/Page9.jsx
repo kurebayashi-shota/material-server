@@ -55,7 +55,7 @@ export default function Page9({ className }) {
             </h3>
             <div className='w-100'>
               ホストを必要としないのでリソースを最大限活用できる仮想化ソフトです。
-              設定が比較的難しいので玄人向け。
+              <br/>設定が比較的難しいので玄人向け。
             </div>
           </span>
         </section>

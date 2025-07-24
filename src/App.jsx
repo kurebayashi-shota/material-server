@@ -1,6 +1,8 @@
 import React from 'react';
+import './App.css';
+import { pagesData } from './Data/PagesData';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Header from './Header/Header';
+import Header from './Template/Header/Header';
 import Top from './Top';
 import Introduction from './Introduction/Introduction';
 import Agenda from "./Introduction/Agenda";
@@ -9,14 +11,15 @@ import Purpose from './Introduction/Purpose';
 import Ubuntu from './Download/Ubuntu';
 import Visual from './Download/Visual';
 import Virtual from './Download/Virtual';
-import Chapter1 from './Chapter1/Chapter1';
-import Chapter2 from './Chapter2/Chapter2';
-import Chapter3 from './Chapter3/Chapter3';
-import Chapter4 from './Chapter4/Chapter4';
-import Chapter5 from './Chapter5/Chapter5';
-import './App.css';
+import Test from './Sumple-Nouse/Test'
 
 function App() {
+  const chapters = pagesData[0];
+  const chapterComponents = chapters.map((PageComponent, index) => ({
+    id: index + 1,
+    path: `chapter${index + 1}/*`,
+    element: <PageComponent chapter={index + 1} />,
+  }))
   return (
     <Router>
       <Header />
@@ -29,11 +32,14 @@ function App() {
         <Route path='/ubuntu' element={<Ubuntu />} />
         <Route path='/virtualbox' element={<Virtual />} />
         <Route path='/microsoftvisual' element={<Visual />} />
-        <Route path='chapter1/*' element={<Chapter1 />} />
-        <Route path='chapter2/*' element={<Chapter2 />} />
-        <Route path='chapter3/*' element={<Chapter3 />} />
-        <Route path='chapter4/*' element={<Chapter4 />} />
-        <Route path='chapter5/*' element={<Chapter5 />} />
+        {chapterComponents.map((chapterComponent)=>(
+          <Route
+            key={chapterComponent.id}
+            path={chapterComponent.path}
+            element={chapterComponent.element}
+          />
+        ))}
+        <Route path='/test' element={<Test />} />
       </Routes>
     </Router>
   )

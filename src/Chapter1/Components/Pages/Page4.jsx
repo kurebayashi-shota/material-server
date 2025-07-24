@@ -1,10 +1,14 @@
-import React from 'react';
+import React from "react";
 import Thitle from '../../../ThitleLabel/Thitle';
 import Server from '../../../assets/PcImage/server.png'
 import Client from '../../../assets/PcImage/pc.png'
 import DoubleArrowIcon from '@mui/icons-material/DoubleArrow';
+import useHandleClick from '../../../Template/Hooks/Handlers/clickHandlerNum'
 
 export default function Page4() {
+
+  const isHidden = useHandleClick();
+  
   return (
     <>
       <Thitle
@@ -23,7 +27,12 @@ export default function Page4() {
             言葉としてはパーソナルコンピューターの略ですが、誤解を恐れずに言うとサーバーもパソコンです。
           </div>
         </section>
-        <section className='mt-[3rem] flex justify-center'>
+
+        <div className={`${isHidden == 0 ? "opacity-100" : "opacity-0"} font-bold text-[tomato] mt-[5rem]`}>
+          画面をクリックして下さい
+        </div>
+        
+        <section className={`${isHidden < 1 ? "opacity-0" : "opacity-500"} transform duration-1000 -mt-[5rem] flex justify-center`}>
           <div className='flex flex-col items-center'>
             <img className='h-30 w-30' src={`${Server}`} alt="サーバー画像" />
             <span className='justify-center'>コンピューター(サーバー)</span>
