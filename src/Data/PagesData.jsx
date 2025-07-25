@@ -96,13 +96,6 @@ import Chapter6_Page20 from '../Chapter6/Pages/Page20';
 import Chapter6_Page21 from '../Chapter6/Pages/Page21';
 import Chapter6_Page22 from '../Chapter6/Pages/Page22';
 import Chapter6_Page23 from '../Chapter6/Pages/Page23';
-import Chapter6_Page24 from '../Chapter6/Pages/Page24';
-import Chapter6_Page25 from '../Chapter6/Pages/Page25';
-import Chapter6_Page26 from '../Chapter6/Pages/Page26';
-import Chapter6_Page27 from '../Chapter6/Pages/Page27';
-import Chapter6_Page28 from '../Chapter6/Pages/Page28';
-import Chapter6_Page29 from '../Chapter6/Pages/Page29';
-import Chapter6_Page30 from '../Chapter6/Pages/Page30';
 import Chapter7_Page1 from '../Chapter7/Pages/Page1';
 import Chapter7_Page2 from '../Chapter7/Pages/Page2';
 import Chapter7_Page3 from '../Chapter7/Pages/Page3';
@@ -113,6 +106,16 @@ import Chapter7_Page7 from '../Chapter7/Pages/Page7';
 import Chapter7_Page8 from '../Chapter7/Pages/Page8';
 import Chapter7_Page9 from '../Chapter7/Pages/Page9';
 import Chapter7_Page10 from '../Chapter7/Pages/Page10';
+import Chapter7_Page11 from '../Chapter7/Pages/Page11';
+import Chapter7_Page12 from '../Chapter7/Pages/Page12';
+import Chapter7_Page13 from '../Chapter7/Pages/Page13';
+import Chapter7_Page14 from '../Chapter7/Pages/Page14';
+import Chapter7_Page15 from '../Chapter7/Pages/Page15';
+import Chapter7_Page16 from '../Chapter7/Pages/Page16';
+import Chapter7_Page17 from '../Chapter7/Pages/Page17';
+import Chapter7_Page18 from '../Chapter7/Pages/Page18';
+import Chapter7_Page19 from '../Chapter7/Pages/Page19';
+import Chapter7_Page20 from '../Chapter7/Pages/Page20';
 
 export const pagesData = [
     [
@@ -145,11 +148,12 @@ export const pagesData = [
         Chapter6_Page6,Chapter6_Page7,Chapter6_Page8,Chapter6_Page9,Chapter6_Page10,
         Chapter6_Page11,Chapter6_Page12,Chapter6_Page13,Chapter6_Page14,Chapter6_Page15,
         Chapter6_Page16,Chapter6_Page17,Chapter6_Page18,Chapter6_Page19,Chapter6_Page20,
-        Chapter6_Page21,Chapter6_Page22,Chapter6_Page23,Chapter6_Page24,Chapter6_Page25,
-        Chapter6_Page26,Chapter6_Page27,Chapter6_Page28,Chapter6_Page29,Chapter6_Page30,
+        Chapter6_Page21,Chapter6_Page22,Chapter6_Page23
     ],
     [
         Chapter7_Page1,Chapter7_Page2,Chapter7_Page3,Chapter7_Page4,Chapter7_Page5,
         Chapter7_Page6,Chapter7_Page7,Chapter7_Page8,Chapter7_Page9,Chapter7_Page10,
+        Chapter7_Page11,Chapter7_Page12,Chapter7_Page13,Chapter7_Page14,Chapter7_Page15,
+        Chapter7_Page16,Chapter7_Page17,Chapter7_Page18,Chapter7_Page19,Chapter7_Page20,
     ],
 ]

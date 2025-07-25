@@ -2,11 +2,12 @@ import { AgendaData } from "../../AgendaData"
 import { ClassData } from "../../classData"
 import Image from "../../ImageImport"
 
+const agenda = AgendaData[4]
 export const Capter6Data = [
     {
         Type:"simple",
         Label:null,
-        Title:"SSHについて",
+        Title:agenda[0],
         TitleClass:ClassData.TitleClass,
         TitleDetail:"",
         Image:null,
@@ -17,7 +18,7 @@ export const Capter6Data = [
     },
     {
         Type:"simple",
-        Label:AgendaData[4],
+        Label:agenda[0],
         Title:"SSHとは",
         TitleClass:null,
         TitleDetail:"SSH(Secure Shell)は、ネットワークを介してコンピュータ同士を安全に接続するためのプロトコルです。主に、リモートのサーバーにログインしたり、コマンドを実行したり、ファイルを転送したりするために使われます。",
@@ -29,7 +30,7 @@ export const Capter6Data = [
     },
     {
         Type:"simple",
-        Label:AgendaData[4],
+        Label:agenda[0],
         ImagesOver:[],
         Title:"サーバーは遠隔地にある事が多い",
         TitleClass:null,
@@ -55,7 +56,7 @@ export const Capter6Data = [
     {
         Type:"simple",
         Label:null,
-        Title:"SSHクライアントのインストール",
+        Title:agenda[1],
         TitleClass:ClassData.TitleClass,
         TitleDetail:null,
         Image:null,
@@ -66,7 +67,7 @@ export const Capter6Data = [
     },
     {
         Type:"simple",
-        Label:AgendaData[4],
+        Label:agenda[1],
         Title:"TeraTeamとは",
         TitleClass:null,
         TitleDetail:"Windows向けの無料のターミナルエミュレーターソフトウェアです。主にSSHを使ってリモートのサーバーや機器に接続し、コマンド操作を行うためのツールです。",
@@ -78,7 +79,7 @@ export const Capter6Data = [
     },
     {
         Type:"step",
-        Label:AgendaData[4],
+        Label:agenda[1],
         Title:"↓をクリックしてダウンロードサイトへアクセスして下さい",
         TitleClass:"https://teratermproject.github.io/",
         TitleDetail:"ここをクリック",
@@ -92,7 +93,7 @@ export const Capter6Data = [
     },
     {
         Type:"step",
-        Label:AgendaData[4],
+        Label:agenda[1],
         Title:"[teraterm-5.4.0.exe]をクリック",
         TitleClass:null,
         TitleDetail:null,
@@ -107,7 +108,7 @@ export const Capter6Data = [
     },
     {
         Type:"step",
-        Label:AgendaData[4],
+        Label:agenda[1],
         Title:"ダウンロードが終わったら.exeを起動",
         TitleClass:null,
         TitleDetail:null,
@@ -122,7 +123,7 @@ export const Capter6Data = [
     },
     {
         Type:"step",
-        Label:AgendaData[4],
+        Label:agenda[1],
         Title:"同意するにチェックが入っているか確認",
         TitleClass:null,
         TitleDetail:null,
@@ -136,7 +137,7 @@ export const Capter6Data = [
     },
     {
         Type:"step",
-        Label:AgendaData[4],
+        Label:agenda[1],
         Title:"[次へ]を押下",
         TitleClass:null,
         TitleDetail:null,
@@ -148,7 +149,7 @@ export const Capter6Data = [
     },
     {
         Type:"step",
-        Label:AgendaData[4],
+        Label:agenda[1],
         Title:"[次へ]を押下",
         TitleClass:null,
         TitleDetail:null,
@@ -160,7 +161,7 @@ export const Capter6Data = [
     },
     {
         Type:"step",
-        Label:AgendaData[4],
+        Label:agenda[1],
         Title:"[次へ]を押下",
         TitleClass:null,
         TitleDetail:null,
@@ -172,7 +173,7 @@ export const Capter6Data = [
     },
     {
         Type:"step",
-        Label:AgendaData[4],
+        Label:agenda[1],
         Title:"[インストール]を押下",
         TitleClass:null,
         TitleDetail:null,
@@ -184,7 +185,7 @@ export const Capter6Data = [
     },
     {
         Type:"step",
-        Label:AgendaData[4],
+        Label:agenda[1],
         Title:"[完了]を押下",
         TitleClass:null,
         TitleDetail:null,
@@ -197,7 +198,7 @@ export const Capter6Data = [
     {
         Type:"simple",
         Label:null,
-        Title:"SSHサーバーのインストール",
+        Title:agenda[2],
         TitleClass:ClassData.TitleClass,
         TitleDetail:null,
         Image:null,
@@ -208,7 +209,7 @@ export const Capter6Data = [
     },
     {
         Type:"simple",
-        Label:AgendaData[4],
+        Label:agenda[2],
         Title:"OpenSSHとは?",
         TitleClass:null,
         TitleDetail:"Linuxディストリビューションでよく採用されるSSHサーバー兼クライアントソフトです。",
@@ -220,7 +221,7 @@ export const Capter6Data = [
     },
     {
         Type:"step",
-        Label:AgendaData[4],
+        Label:agenda[2],
         Title:"VMを起動してTerminalを開いて下記のコマンドを入力",
         TitleClass:null,
         TitleDetail:null,
@@ -235,7 +236,7 @@ export const Capter6Data = [
     },
     {
         Type:"step",
-        Label:AgendaData[4],
+        Label:agenda[2],
         Title:"ではインストールしましょう",
         TitleClass:null,
         TitleDetail:null,
@@ -251,7 +252,7 @@ export const Capter6Data = [
     },
     {
         Type:"step",
-        Label:AgendaData[4],
+        Label:agenda[2],
         Title:"#sudo apt install ssh",
         TitleClass:null,
         TitleDetail:null,
@@ -265,7 +266,7 @@ export const Capter6Data = [
     },
     {
         Type:"step",
-        Label:AgendaData[4],
+        Label:agenda[2],
         Title:"画像のようになればOKです。",
         TitleClass:null,
         TitleDetail:null,
@@ -278,7 +279,7 @@ export const Capter6Data = [
     },
     {
         Type:"step",
-        Label:AgendaData[4],
+        Label:agenda[2],
         Title:"#sudo systemctl status ssh",
         TitleClass:null,
         TitleDetail:null,
@@ -296,7 +297,7 @@ export const Capter6Data = [
     {
         Type:"simple",
         Label:null,
-        Title:"基本的なコマンド",
+        Title:agenda[3],
         TitleClass:ClassData.TitleClass,
         TitleDetail:null,
         Image:null,
@@ -307,7 +308,7 @@ export const Capter6Data = [
     },
     {
         Type:"simple",
-        Label:AgendaData[4],
+        Label:agenda[3],
         ImagesOver:[
             {
                 src:Image[6][1],
@@ -327,7 +328,7 @@ export const Capter6Data = [
     },
     {
         Type:"simple",
-        Label:AgendaData[4],
+        Label:agenda[3],
         ImagesOver:[],
         Title:"ディレクトリの確認",
         TitleClass:null,
@@ -356,7 +357,7 @@ export const Capter6Data = [
     },
     {
         Type:"simple",
-        Label:AgendaData[4],
+        Label:agenda[3],
         ImagesOver:[],
         Title:"ファイル・ディレクトリの操作①",
         TitleClass:null,
@@ -390,7 +391,7 @@ export const Capter6Data = [
     },
     {
         Type:"simple",
-        Label:AgendaData[4],
+        Label:agenda[3],
         ImagesOver:[],
         Title:"ファイル・ディレクトリの操作②",
         TitleClass:null,
@@ -424,7 +425,7 @@ export const Capter6Data = [
     },
     {
         Type:"simple",
-        Label:AgendaData[4],
+        Label:agenda[3],
         ImagesOver:[],
         Title:"システム・ソフト管理",
         TitleClass:null,
@@ -458,7 +459,7 @@ export const Capter6Data = [
     },
     {
         Type:"simple",
-        Label:AgendaData[4],
+        Label:agenda[3],
         ImagesOver:[],
         Title:"ソフトウェアのコマンド",
         TitleClass:null,

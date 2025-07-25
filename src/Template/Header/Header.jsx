@@ -10,9 +10,9 @@ export default function Header() {
     {id:3, to:"/chapter2",value:"第二回",},
     {id:4, to:"/chapter3",value:"第三回",},
     {id:5, to:"/chapter4",value:"第四回",},
-    {id:6, to:"/chapter5",value:"第五回",},
-    {id:7, to:"/chapter6",value:"第六回",},
-    {id:8, to:"/chapter7",value:"第七回",},
+    {id:6, to:"/chapter5",value:"第五回(6)",},
+    {id:7, to:"/chapter6",value:"第六回(7)",},
+    {id:8, to:"/chapter7",value:"第七回(5)",},
   ]
 
   return (

@@ -4,17 +4,16 @@ import { useAddArrow } from '../Hooks/useAddArrow'
 import TitleLabel from '../Title/TitleLabel';
 import Logo from '../../Chapter1/Components/Pages/Components/Logo'
 
-export default function SimpleLayout({ adjustmentClass, className, agendaNum, dataNum, chapter }) {
+export default function SimpleLayout({ adjustmentClass, className, dataNum, chapter }) {
   let data = useAddData({chapter});
   let arrow = useAddArrow(data[dataNum].Arrow);
   
   return (
     <div className={className}>
       <TitleLabel
-        key={data[dataNum][agendaNum]}
         className="mt-10"
       >
-        {data[dataNum].Label?.[agendaNum] || ""}
+        {data[dataNum].Label}
       </TitleLabel>
 
       <div

@@ -1,14 +1,8 @@
 import { useOutletContext } from 'react-router-dom'
-import SimpleLayout from '../../Template/PageTemp/SimpleLayout'
+import { useSelectType } from '../../Template/Hooks/useSelectType';
 
 export default function Page17({ className }) {
-  const {chapter} = useOutletContext();
-  return (
-    <SimpleLayout
-      className={className}
-      agendaNum={2}
-      dataNum={14}
-      chapter={chapter}
-    />
-  )
+  const { chapter, match } = useOutletContext();
+  const layoutRespons = useSelectType({ chapter, match, className });
+  return layoutRespons;
 }

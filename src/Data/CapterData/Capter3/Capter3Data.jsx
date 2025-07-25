@@ -2,10 +2,11 @@ import { AgendaData } from "../../AgendaData"
 import { ClassData } from "../../classData"
 import Image from "../../ImageImport"
 
+const agenda = AgendaData[1]
 export const Capter3Data = [
     {
         Type:"simple",
-        Label:AgendaData[1],
+        Label:agenda[0],
         ImagesOver:[],
         Title:"パソコンでよく使われるOS",
         TitleClass:null,
@@ -35,7 +36,7 @@ export const Capter3Data = [
     },
     {
         Type:"simple",
-        Label:AgendaData[1],
+        Label:agenda[0],
         ImagesOver:[
             {
                 src:Image[2][3],
@@ -55,7 +56,7 @@ export const Capter3Data = [
     },
     {
         Type:"simple",
-        Label:AgendaData[1],
+        Label:[...agenda],
         ImagesOver:[
             {
                 src:null,
