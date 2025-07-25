@@ -1,0 +1,1 @@
+export const IndexData = [0,0,0,0,0,0]

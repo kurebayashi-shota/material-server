@@ -2,7 +2,7 @@ import { useAddData } from '../Hooks/useAddData';
 import { ClassData } from '../../Data/classData';
 import TitleLabel from '../../Template/Title/TitleLabel';
 
-export default function StepRayout({ adjustmentClass, className, agendaNum, dataNum, chapter }) {
+export default function StepRayout({ adjustmentClass, className, dataNum, chapter }) {
     const textClass = "text-[1.5rem] xl:text-[2rem]";
     let data = useAddData({chapter});
   
@@ -14,8 +14,8 @@ export default function StepRayout({ adjustmentClass, className, agendaNum, data
     
     return (
       <div className="h-[70%]">
-        <TitleLabel key={data[dataNum][agendaNum]}>
-          {data[dataNum].Label?.[agendaNum] || ""}
+        <TitleLabel>
+          {data[dataNum].Label}
         </TitleLabel>
         <div key={data[dataNum].Label} className={`w-fit mx-auto ${className}`}>
           <section>

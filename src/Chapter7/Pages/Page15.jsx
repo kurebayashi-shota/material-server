@@ -1,15 +1,8 @@
-import { useOutletContext } from 'react-router-dom';
-import StepRayout from '../../Template/PageTemp/StepRayout';
+import { useOutletContext } from 'react-router-dom'
+import { useSelectType } from '../../Template/Hooks/useSelectType';
 
 export default function Page15({ className }) {
-  const {chapter} = useOutletContext();
-  
-  return (
-      <StepRayout
-        className={className}
-        agendaNum={1}
-        dataNum={12}
-        chapter={chapter}
-      />
-  )
+  const { chapter, match } = useOutletContext();
+  const layoutRespons = useSelectType({ chapter, match, className });
+  return layoutRespons;
 }
