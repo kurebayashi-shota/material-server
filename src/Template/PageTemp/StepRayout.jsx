@@ -1,5 +1,5 @@
 import { useAddData } from '../Hooks/useAddData';
-import { ClassData } from '../../Data/classData';
+import { ClassData } from '../../Data/ClassData';
 import TitleLabel from '../../Template/Title/TitleLabel';
 
 export default function StepRayout({ adjustmentClass, className, dataNum, chapter }) {

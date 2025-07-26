@@ -1,5 +1,5 @@
 import Create from '../../../assets/Tutorial/VmCreate/vmCreate1.png'
-import { ClassData } from '../../classData'
+import { ClassData } from '../../ClassData'
 export const StepData = [
     {
                 text:"各項目を入力or選択後に[次へ(N)]",

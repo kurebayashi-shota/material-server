@@ -1,5 +1,5 @@
 import { AgendaData } from "../AgendaData"
-import { ClassData } from "../classData"
+import { ClassData } from "../ClassData"
 import Image from "../ImageImport"
 
 export const Capter2Data = [
