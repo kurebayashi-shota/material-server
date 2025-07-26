@@ -1,4 +1,4 @@
-import Title from './title'
+import Title from './Title'
 
 export default function TitleLabel({ className, children }) {
     const titleBorderClass = "mt-[1rem] bg-white inline-block border-[3px] border-[#333]";

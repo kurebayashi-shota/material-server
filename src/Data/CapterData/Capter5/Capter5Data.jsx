@@ -1,5 +1,5 @@
 import { AgendaData } from "../../AgendaData"
-import { ClassData } from "../../classData"
+import { ClassData } from "../../ClassData"
 import Image from "../../ImageImport"
 
 const titleClass = "text-[4rem] xl:text-[6rem]";
