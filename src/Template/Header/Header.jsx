@@ -13,6 +13,7 @@ export default function Header() {
     {id:6, to:"/chapter5",value:"第五回(6)",},
     {id:7, to:"/chapter6",value:"第六回(7)",},
     {id:8, to:"/chapter7",value:"第七回(5)",},
+    {id:9, to:"/chapter8",value:"第八回",},
   ]
 
   return (
