@@ -35,6 +35,7 @@ export default function StepRayout({ adjustmentClass, className, dataNum, chapte
                 ))}
               </ul>
               <img className={data[dataNum].ImageClass} src={data[dataNum].Image} />
+              <img className={data[dataNum].ImagesOver.class} src={data[dataNum].ImagesOver.src} />
               <div className={data[dataNum].NextClass}></div>
               <div className={data[dataNum].RedFrameClass}></div>
             </div>

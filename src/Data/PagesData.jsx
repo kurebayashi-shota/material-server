@@ -5,6 +5,7 @@ import Chapter4 from '../Chapter4/Chapter4';
 import Chapter5 from '../Chapter5/Chapter5';
 import Chapter6 from '../Chapter6/Chapter6';
 import Chapter7 from '../Chapter7/Chapter7';
+import Chapter8 from '../Chapter8/Chapter8';
 import Capter2_Page1 from '../Chapter2/Pages/Page1';
 import Capter2_Page2 from '../Chapter2/Pages/Page2';
 import Capter2_Page3 from '../Chapter2/Pages/Page3';
@@ -116,10 +117,30 @@ import Chapter7_Page17 from '../Chapter7/Pages/Page17';
 import Chapter7_Page18 from '../Chapter7/Pages/Page18';
 import Chapter7_Page19 from '../Chapter7/Pages/Page19';
 import Chapter7_Page20 from '../Chapter7/Pages/Page20';
+import Chapter8_Page1 from '../Chapter8/Pages/Page1';
+import Chapter8_Page2 from '../Chapter8/Pages/Page2';
+import Chapter8_Page3 from '../Chapter8/Pages/Page3';
+import Chapter8_Page4 from '../Chapter8/Pages/Page4';
+import Chapter8_Page5 from '../Chapter8/Pages/Page5';
+import Chapter8_Page6 from '../Chapter8/Pages/Page6';
+import Chapter8_Page7 from '../Chapter8/Pages/Page7';
+import Chapter8_Page8 from '../Chapter8/Pages/Page8';
+import Chapter8_Page9 from '../Chapter8/Pages/Page9';
+import Chapter8_Page10 from '../Chapter8/Pages/Page10';
+import Chapter8_Page11 from '../Chapter8/Pages/Page11';
+import Chapter8_Page12 from '../Chapter8/Pages/Page12';
+import Chapter8_Page13 from '../Chapter8/Pages/Page13';
+import Chapter8_Page14 from '../Chapter8/Pages/Page14';
+import Chapter8_Page15 from '../Chapter8/Pages/Page15';
+import Chapter8_Page16 from '../Chapter8/Pages/Page16';
+import Chapter8_Page17 from '../Chapter8/Pages/Page17';
+import Chapter8_Page18 from '../Chapter8/Pages/Page18';
+import Chapter8_Page19 from '../Chapter8/Pages/Page19';
+import Chapter8_Page20 from '../Chapter8/Pages/Page20';
 
 export const pagesData = [
     [
-        Chapter1,Chapter2,Chapter3,Chapter4,Chapter5,Chapter6,Chapter7,
+        Chapter1,Chapter2,Chapter3,Chapter4,Chapter5,Chapter6,Chapter7,Chapter8,
     ],
     [
         Capter2_Page1,Capter2_Page2,Capter2_Page3,Capter2_Page4,Capter2_Page5,
@@ -155,5 +176,11 @@ export const pagesData = [
         Chapter7_Page6,Chapter7_Page7,Chapter7_Page8,Chapter7_Page9,Chapter7_Page10,
         Chapter7_Page11,Chapter7_Page12,Chapter7_Page13,Chapter7_Page14,Chapter7_Page15,
         Chapter7_Page16,Chapter7_Page17,Chapter7_Page18,Chapter7_Page19,Chapter7_Page20,
+    ],
+    [
+        Chapter8_Page1,Chapter8_Page2,Chapter8_Page3,Chapter8_Page4,Chapter8_Page5,
+        Chapter8_Page6,Chapter8_Page7,Chapter8_Page8,Chapter8_Page9,Chapter8_Page10,
+        Chapter8_Page11,Chapter8_Page12,Chapter8_Page13,Chapter8_Page14,Chapter8_Page15,
+        Chapter8_Page16,Chapter8_Page17,Chapter8_Page18,Chapter8_Page19,Chapter8_Page20,
     ],
 ]

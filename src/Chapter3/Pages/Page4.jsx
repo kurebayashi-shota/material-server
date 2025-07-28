@@ -15,7 +15,7 @@ export default function Page4({ className }) {
       </Thitle>
 
       <div className='grid place-items-center h-[80%]'>
-        <section className='mt-[2rem] text-center'>
+        <section className='text-center'>
           <div className='flex'>
             <img className='h-40 mx-auto' src={`${Cui}`} alt="CUI画像" />
             <DoubleArrowIcon className='my-auto mx-[2rem] transform scale-x-[-1]' sx={{ fontSize:100 }} />

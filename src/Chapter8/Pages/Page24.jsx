@@ -1,9 +1,9 @@
 import { useOutletContext } from 'react-router-dom'
 import SimpleLayout from '../../Template/PageTemp/SimpleLayout'
 
-export default function Page7({ className }) {
+export default function Page24({ className }) {
   const {chapter} = useOutletContext();
   return (
-    <SimpleLayout className={className} agendaNum={1} dataNum={21} chapter={chapter} />
+    <SimpleLayout className={className} agendaNum={3} dataNum={21} chapter={chapter} />
   )
 }
