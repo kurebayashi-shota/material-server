@@ -137,6 +137,7 @@ import Chapter8_Page17 from '../Chapter8/Pages/Page17';
 import Chapter8_Page18 from '../Chapter8/Pages/Page18';
 import Chapter8_Page19 from '../Chapter8/Pages/Page19';
 import Chapter8_Page20 from '../Chapter8/Pages/Page20';
+import Chapter8_Page21 from '../Chapter8/Pages/Page21';
 
 export const pagesData = [
     [
@@ -182,5 +183,6 @@ export const pagesData = [
         Chapter8_Page6,Chapter8_Page7,Chapter8_Page8,Chapter8_Page9,Chapter8_Page10,
         Chapter8_Page11,Chapter8_Page12,Chapter8_Page13,Chapter8_Page14,Chapter8_Page15,
         Chapter8_Page16,Chapter8_Page17,Chapter8_Page18,Chapter8_Page19,Chapter8_Page20,
+        Chapter8_Page21,
     ],
 ]
