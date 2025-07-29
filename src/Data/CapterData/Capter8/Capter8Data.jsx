@@ -172,7 +172,7 @@ export const Capter8Data = [
         ImagesUnder:[],
         Arrow:"",
         LiElements:[
-            { class:`w-[27rem] xl:w-[40rem]`,value:"インストール前のおまじないです。" },
+            { class:`w-[16rem] xl:w-[24rem]`,value:"インストール前のおまじないです。" },
         ],
     },
     {
@@ -185,39 +185,7 @@ export const Capter8Data = [
         ImagesUnder:[],
         Arrow:"",
         LiElements:[
-            { class:`w-[27rem] xl:w-[40rem]`,value:"このコマンドでインストール出来ます。" },
-        ],
-    },
-    {
-        Type:"step",
-        Label:agenda[1],
-        ImagesOver:[],
-        Title:"#sudo apt install nano",
-        TitleClass:null,
-        TitleDetail:"",
-        ImagesUnder:[],
-        Arrow:"",
-        LiElements:[
-            { class:`w-[27rem] xl:w-[40rem]`,value:"このコマンドでインストール出来ます。" },
-        ],
-    },
-    {
-        Type:"step",
-        Label:agenda[1],
-        ImagesOver:
-        {
-            src:Image[6][5],
-            alt:null,
-            class:"h-60 xl:h-80",
-            value:"",
-        },
-        Title:"#nano -Version",
-        TitleClass:null,
-        TitleDetail:"",
-        ImagesUnder:[],
-        Arrow:"",
-        LiElements:[
-            { class:`w-[27rem] xl:w-[40rem]`,value:"インストールされているかの確認。画像のようになればOK。" },
+            { class:`w-[18rem] xl:w-[27rem]`,value:"このコマンドでインストール出来ます。" },
         ],
     },
     {
@@ -227,7 +195,7 @@ export const Capter8Data = [
         {
             src:Image[6][6],
             alt:null,
-            class:"h-60 xl:h-80",
+            class:"h-[8rem] xl:h-[10rem]",
             value:"",
         },
         Title:"下記のコマンドを順番に入力",
@@ -236,9 +204,9 @@ export const Capter8Data = [
         ImagesUnder:[],
         Arrow:"",
         LiElements:[
-            { class:`w-[27rem] xl:w-[40rem]`,value:"#cd /var/www/html" },
-            { class:`w-[27rem] xl:w-[40rem]`,value:"#ls" },
-            { class:`w-[27rem] xl:w-[40rem]`,value:"#sudo nano index.html" },
+            { class:`w-[10rem] xl:w-[14rem]`,value:"#cd /var/www/html" },
+            { class:`w-[1.5rem] xl:w-[2rem]`,value:"#ls" },
+            { class:`w-[11rem] xl:w-[17rem]`,value:"#sudo nano index.html" },
         ],
     },
     {
@@ -248,7 +216,7 @@ export const Capter8Data = [
         {
             src:Image[6][7],
             alt:null,
-            class:"h-60 xl:h-80",
+            class:"h-50 xl:h-70",
             value:"",
         },
         Title:"パスワードの入力後に画像のようになります。",
@@ -265,16 +233,16 @@ export const Capter8Data = [
         {
             src:Image[6][8],
             alt:null,
-            class:"h-60 xl:h-80",
+            class:"h-[4rem] xl:h-[5rem]",
             value:"",
         },
-        Title:"注目して頂きたいのは下の部分で、殆どの使い方が書いてあります。",
+        Title:"注目して頂きたいのは下の部分で、使い方が書いてあります。",
         TitleClass:null,
         TitleDetail:"",
         ImagesUnder:[],
         Arrow:"",
         LiElements:[
-            { class:`w-[27rem] xl:w-[40rem]`,value:"注:^=ctrl" },
+            { class:`w-[4rem] xl:w-[6rem]`,value:"注:^=ctrl" },
         ],
     },
     {
@@ -284,16 +252,16 @@ export const Capter8Data = [
         {
             src:Image[6][9],
             alt:null,
-            class:"h-60 xl:h-80",
+            class:"h-50 xl:h-70",
             value:"",
         },
-        Title:"[ctrl]+[W]",
+        Title:"[ctrl]+[w]で下記の文字列を検索",
         TitleClass:null,
         TitleDetail:"",
         ImagesUnder:[],
         Arrow:"",
         LiElements:[
-            { class:`w-[27rem] xl:w-[40rem]`,value:"[it works!]と入力して[Enter]" },
+            { class:`w-[13rem] xl:w-[20rem]`,value:"[it works!]と入力して[Enter]" },
         ],
     },
     {
@@ -303,18 +271,16 @@ export const Capter8Data = [
         {
             src:Image[6][10],
             alt:null,
-            class:"h-60 xl:h-80",
+            class:"h-50 xl:h-70",
             value:"",
         },
-        Title:"該当箇所を[HelloWorld!]に変更して下記のように操作",
+        Title:"該当箇所を[HelloWorld!]に変更する",
         TitleClass:null,
         TitleDetail:"",
         ImagesUnder:[],
         Arrow:"",
         LiElements:[
-            { class:`w-[27rem] xl:w-[40rem]`,value:"[ctrl]+[O]" },
-            { class:`w-[27rem] xl:w-[40rem]`,value:"画像の表示になったら[Enter]" },
-            { class:`w-[27rem] xl:w-[40rem]`,value:"[ctrl]+[X]" },
+            { class:`w-[5rem] xl:w-[7rem]`,value:"[ctrl]+[O]" },
         ],
     },
     {
@@ -324,18 +290,54 @@ export const Capter8Data = [
         {
             src:Image[6][11],
             alt:null,
-            class:"h-60 xl:h-80",
+            class:"h-[8rem] xl:h-[10rem]",
             value:"",
         },
-        Title:"#sudo systemctl restart",
+        Title:"画像の表示になったら[Enter]",
         TitleClass:null,
         TitleDetail:"",
         ImagesUnder:[],
         Arrow:"",
         LiElements:[
-            { class:`w-[27rem] xl:w-[40rem]`,value:"アクセスして画像のようになっていたら成功です。" },
-            { class:`w-[27rem] xl:w-[40rem]`,value:"画像の表示になったら[Enter]" },
-            { class:`w-[27rem] xl:w-[40rem]`,value:"[ctrl]+[X]" },
+            { class:`w-[5rem] xl:w-[7rem]`,value:"[ctrl]+[X]" },
+        ],
+    },
+    {
+        Type:"step",
+        Label:agenda[1],
+        ImagesOver:
+        {
+            src:Image[6][12],
+            alt:null,
+            class:"h-[8rem] xl:h-[12rem]",
+            value:"",
+        },
+        Title:"画像の表示になったら下記のコマンドでApacheを再起動します。",
+        TitleClass:null,
+        TitleDetail:"",
+        ImagesUnder:[],
+        Arrow:"",
+        LiElements:[
+            { class:`w-[15rem] xl:w-[23rem]`,value:"#sudo systemctl restart apache2" },
+        ],
+    },
+    {
+        Type:"step",
+        Label:agenda[1],
+        ImagesOver:
+        {
+            src:Image[6][13],
+            alt:null,
+            class:"h-[8rem] xl:h-[12rem]",
+            value:"",
+        },
+        Title:"再度ブラウザでアクセスして下さい。",
+        TitleClass:null,
+        TitleDetail:"",
+        ImagesUnder:[],
+        Arrow:"",
+        LiElements:[
+            { class:`w-[18rem] xl:w-[27rem]`,value:"画像の表示に変わっていたら成功です。" },
         ],
     },
     {
